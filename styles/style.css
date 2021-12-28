@@ -71,6 +71,9 @@ a {
   color: #000;
   text-decoration: none;
 }
+.logo-link:hover {
+  color: #ffffff;
+}
 .standard-container {
   position: relative;
   display: block;
