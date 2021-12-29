@@ -39,7 +39,7 @@ a {
   background-size: 180%, auto;
 }
 .nav-logo-container {
-  position: fixed;
+  position: relative;
   display: inline-block;
   width: auto;
   height: 32px;
@@ -206,13 +206,18 @@ a {
 
 .footer-title {
   margin-top: 0px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   text-align: right;
   font-weight: 600;
   font-size: 50px;
 }
 .footer-title:hover {
   color: #000;
+}
+
+.email-link {
+  text-align: right;
+  margin-bottom: 10px;
 }
 .footer-links {
   display: flex;
@@ -313,14 +318,19 @@ a {
   }
   .footer-title {
     text-align: left;
+    font-size: 40px;
   }
 
+  .email-link {
+    text-align: left;
+  }
   .footer-item {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-right: 24px;
     padding-left: 0px;
+    font-size: 30px;
   }
   .link-block {
     -webkit-box-pack: start;
@@ -351,5 +361,18 @@ a {
   }
   .logo-link {
     font-size: 20px;
+  }
+  .footer-title {
+    font-size: 30px;
+  }
+  .footer-item {
+    font-size: 25px;
+  }
+  .footer-dots {
+    right: -235px;
+    bottom: 12px;
+  }
+  .footer-top-divider {
+    margin-top: 8px;
   }
 }
