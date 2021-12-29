@@ -24,11 +24,10 @@ h1 {
 h2 {
   margin-top: 16px;
   margin-bottom: 0px;
-  font-family: "Superior title", "Times New Roman", sans-serif;
   color: #222;
   font-size: 48px;
   line-height: 56px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0em;
 }
 
@@ -291,7 +290,7 @@ img {
   grid-template-rows: auto;
 }
 .personal-statement {
-  letter-spacing: -0.015em;
+  letter-spacing: 1.8px;
 }
 .portrait-container {
   position: relative;
