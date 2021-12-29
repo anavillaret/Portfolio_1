@@ -61,6 +61,10 @@ a {
   text-decoration: none;
   color: #000;
 }
+.header-link:hover{
+    color: #000;
+    font-weight: 600;
+}
 .logo-link {
   position: relative;
   height: 32px;
