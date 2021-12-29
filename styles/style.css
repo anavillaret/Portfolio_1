@@ -168,7 +168,7 @@ a {
 .footer-top-divider {
   display: flex;
   margin-top: 96px;
-  padding-bottom: 240px;
+  padding-bottom: 180px;
   flex-wrap: nowrap;
   -webkit-box-align: start;
   align-items: flex-start;
