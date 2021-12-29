@@ -248,7 +248,7 @@ a {
   opacity: 1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 45px;
     line-height: 48px;
@@ -276,4 +276,67 @@ a {
   .project-title {
     font-size: 20px;
   }
+  .footer-wrap {
+    overflow: hidden;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 32px;
+    padding-bottom: 48px;
+    padding-left: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-top-divider {
+    margin-top: 64px;
+    padding-bottom: 104px;
+  }
+
+  .footer-links {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .footer-title {
+    text-align: left;
+  }
+
+  .footer-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 24px;
+    padding-left: 0px;
+  }
+  .link-block {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .link-block.w--current {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .nav-logo-container {
+    position: relative;
+  }
+   .footer-dots {
+    left: auto;
+    right: -135px;
+    bottom: 12px;
+    
 }
