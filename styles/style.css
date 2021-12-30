@@ -30,6 +30,16 @@ h2 {
   font-weight: 600;
   letter-spacing: 0em;
 }
+h6 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-family: "Pitchsans Semibold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-decoration: underline;
+}
 
 a {
   display: block;
@@ -342,9 +352,53 @@ img {
   -o-object-fit: fill;
   object-fit: fill;
 }
-
 .grid-paragraph {
   margin-bottom: 0px;
+}
+
+.bio-highlight-square-1 {
+  height: 100%;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #222;
+  border-left: 1px none #222;
+}
+.bio-highlight-square-2 {
+  height: 100%;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom: 1px solid #222;
+  border-left: 1px solid #222;
+}
+.bio-highlight-square-3 {
+  height: 100%;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom: 1px solid #222;
+  border-left: 1px solid #222;
+}
+.bio-highlight-square-4 {
+  padding-top: 24px;
+  padding-right: 24px;
+  border-bottom: 1px none #222;
+  border-left: 1px none #222;
+}
+.bio-highlight-square-5 {
+  height: 100%;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-bottom: 1px none #222;
+  border-left: 1px solid #222;
+}
+
+.bio-highlight-square-6 {
+  height: 100%;
+  padding-top: 24px;
+  padding-left: 24px;
+  border-bottom: 1px none #222;
+  border-left: 1px solid #222;
 }
 
 @media (max-width: 767px) {
