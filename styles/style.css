@@ -281,7 +281,7 @@ img {
 }
 
 .bio-statement-and-portrait {
-  margin-top: 48px;
+  margin-top: 35px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   -ms-grid-columns: 2fr 1.4fr;
@@ -308,6 +308,43 @@ img {
   border: 4px solid #fff;
   border-radius: 24px;
   box-shadow: 11px 11px 48px 0 rgba(0, 0, 0, 0.12);
+}
+.bio-highlights {
+  overflow: visible;
+  margin-top: 64px;
+  justify-items: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 0.85fr 0px 1fr 0px 1fr;
+  grid-template-columns: 0.85fr 1fr 1fr;
+  -ms-grid-rows: auto 0px auto;
+  grid-template-rows: auto auto;
+  border: 1px none #000;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+.bio-highlight-square-1 {
+  height: 100%;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #222;
+  border-left: 1px none #222;
+}
+.grid-titles {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.grid-paragraph {
+  margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
