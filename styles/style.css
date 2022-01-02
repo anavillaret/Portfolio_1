@@ -500,6 +500,56 @@ img {
   .footer-top-divider {
     margin-top: 8px;
   }
+  .arlen-portrait {
+    max-height: 144px;
+    max-width: 144px;
+  }
+
+  .bio-statement-and-portrait {
+    -ms-grid-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .bio-wrapper {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .bio-highlights {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .bio-highlight-square-5 {
+    padding-bottom: 24px;
+    padding-left: 0px;
+    border-bottom-style: solid;
+    border-left-style: none;
+  }
+
+  .bio-highlight-square-4 {
+    padding-bottom: 24px;
+    border-bottom-style: solid;
+  }
+
+  .portrait-container {
+    max-height: 144px;
+    background-image: none;
+  }
+
+  .bio-highlight-square-3 {
+    padding-top: 24px;
+    padding-left: 0px;
+    border-left-style: none;
+  }
+
+  .bio-highlight-square-6 {
+    padding-left: 0px;
+    border-left-style: none;
+  }
 }
 @media (max-width: 375px) {
   .header-link {
