@@ -116,6 +116,10 @@ img {
 .h1-second {
   font-size: 50px;
 }
+.h1-work {
+  font-size: 40px;
+  font-weight: 300;
+}
 .paragraph-xl {
   max-width: 740px;
   opacity: 1;
