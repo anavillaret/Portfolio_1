@@ -410,6 +410,13 @@ img {
     font-size: 45px;
     line-height: 48px;
   }
+  h2 {
+    margin-top: 100px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+  }
   .h1-second {
     font-size: 30px;
   }
@@ -417,6 +424,7 @@ img {
     max-width: 740px;
     font-size: 15px;
   }
+
   .section-style.section-home {
     margin-top: 0px;
   }
@@ -504,14 +512,13 @@ img {
   .footer-top-divider {
     margin-top: 8px;
   }
-  .arlen-portrait {
+  .ana-portrait {
     max-height: 144px;
     max-width: 144px;
   }
 
   .bio-statement-and-portrait {
-    -ms-grid-columns: 2fr 1fr;
-    grid-template-columns: 2fr 1fr;
+    max-width: 740px;
   }
 
   .bio-wrapper {
@@ -521,10 +528,9 @@ img {
   }
 
   .bio-highlights {
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
+    max-width: 740px;
   }
 
   .bio-highlight-square-5 {
@@ -553,9 +559,25 @@ img {
   .bio-highlight-square-6 {
     padding-left: 0px;
     border-left-style: none;
+    paddinf
+  }
+  .grid-titles {
+    margin-bottom: 8px;
+  }
+  .grid-paragraph {
+    text-align: left;
+    letter-spacing: -0.02em;
   }
 }
+
 @media (max-width: 375px) {
+  h2 {
+    margin-top: 100px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+  }
   .header-link {
     padding: 12px 5px;
     font-size: 18px;
@@ -575,5 +597,290 @@ img {
   }
   .footer-top-divider {
     margin-top: 8px;
+  }
+
+  .section-style {
+    margin-top: 64px;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .section-style.section-home {
+    margin-top: 0px;
+  }
+  .standard-container {
+    position: relative;
+  }
+
+  .home-h1 {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .ana-portrait {
+    width: 28vw;
+    height: 28vw;
+    border-radius: 100px;
+    box-shadow: 11px 11px 48px 0 rgba(0, 0, 0, 0.18);
+  }
+
+  .bio-statement-and-portrait {
+    margin-top: 60px;
+    -ms-grid-columns: 2fr;
+    grid-template-columns: 2fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .bio-wrapper {
+    margin-top: 48px;
+    padding-bottom: 0px;
+  }
+
+  .bio-highlights {
+    padding-bottom: 0px;
+    grid-template-areas:
+      "Area-2 Area-2"
+      "Area Area"
+      "Area-3 Area-3";
+  }
+
+  .bio-highlight-square-2 {
+    padding-right: 0px;
+  }
+
+  .bio-highlight-square-5 {
+    padding-right: 0px;
+  }
+
+  .bio-highlight-square-1 {
+    padding-right: 0px;
+  }
+
+  .bio-highlight-square-4 {
+    padding-right: 0px;
+  }
+
+  .bio-highlight-square-6 {
+    padding-bottom: 24px;
+  }
+
+  .home-teaser-list {
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-a092fbde-4f9b-0e1e-f56d-d9b762e73e07-39dcd323 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_89787029-a570-2130-39ed-eb55d3118b5a-3edcd32a {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  #w-node-a99d2cf8-0d4e-87ab-1837-048c837bb7d9-3edcd32a {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  #w-node-_4a77f426-031a-444c-7774-8ebe1f0ba718-3edcd32a {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_04c86d29-80ba-9e8d-5647-30411bfb34f6-3edcd32a {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  #w-node-a092fbde-4f9b-0e1e-f56d-d9b762e73e07-2b744261 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+}
+@media screen and (max-width: 991px) {
+  h1 {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  h4 {
+    text-align: left;
+  }
+
+  h5 {
+    text-align: left;
+  }
+
+  h6 {
+    text-align: left;
+  }
+
+  li {
+    text-align: left;
+  }
+
+  blockquote {
+    text-align: left;
+  }
+
+  .styleguide-block {
+    text-align: center;
+  }
+
+  .rich-text p {
+    text-align: left;
+  }
+
+  .section-style.cc-contact {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .button {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .arlen-logo-link.w--current {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
+  .navigation {
+    position: relative;
+    padding: 40px 40px 0px;
+  }
+
+  .intro-wrap {
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+
+  .contact {
+    width: auto;
+    padding: 30px 50px 40px;
+  }
+
+  .contact-headline {
+    width: 100%;
+  }
+
+  .contact-form-wrap {
+    width: 100%;
+  }
+
+  .footer-wrap {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .base-xl {
+    text-align: left;
+  }
+
+  .base-l {
+    text-align: left;
+  }
+
+  .base-m {
+    text-align: left;
+  }
+
+  .base-s {
+    text-align: left;
+  }
+
+  .grid-style---home {
+    width: 90%;
+  }
+
+  .link {
+    text-align: left;
+  }
+
+  .footer-top-divider {
+    margin-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .hero-shim {
+    opacity: 0;
+  }
+
+  .portfolio-polished-collection-list-mobile {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .divider---richtext {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .footer-dots {
+    left: 22px;
+    bottom: -50px;
+  }
+
+  .body {
+    overflow: hidden;
+  }
+
+  .section-style---sampler.cc-contact {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .arlen-logo-link-animated.w--current {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
+  .bio-wrapper {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+
+  .portrait-container {
+    background-position: 20px 50%;
   }
 }
