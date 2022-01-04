@@ -118,7 +118,7 @@ img {
 }
 .h1-work {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 200;
 }
 .paragraph-xl {
   max-width: 740px;
@@ -167,13 +167,19 @@ img {
 .col-sm-6 {
   margin-top: 120px;
 }
+.img-special {
+  margin-top: 100px;
+  align-self: center;
+  margin-left: 15px;
+}
 
 .project-main-title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
+  padding-bottom: 10px;
 }
 .project-title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
 }
 .project-description {
@@ -304,7 +310,10 @@ img {
   grid-template-rows: auto;
 }
 .personal-statement {
-  letter-spacing: 1.8px;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4px;
 }
 .portrait-container {
   position: relative;
@@ -405,6 +414,58 @@ img {
   border-left: 1px solid #222;
 }
 
+@media screen and (max-width: 991px) {
+  h1 {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left;
+  }
+  .navigation {
+    position: relative;
+    padding: 40px 40px 0px;
+  }
+
+  .intro-wrap {
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+
+  .footer-wrap {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .link {
+    text-align: left;
+  }
+
+  .footer-top-divider {
+    margin-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .footer-dots {
+    left: 22px;
+    bottom: -50px;
+  }
+
+  .body {
+    overflow: hidden;
+  }
+
+  .bio-wrapper {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+
+  .portrait-container {
+    background-position: 20px 50%;
+  }
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 45px;
@@ -429,17 +490,22 @@ img {
     margin-top: 0px;
   }
   .home-h1 {
-    margin-top: 25px;
+    margin-top: 80px;
     margin-bottom: 10px;
   }
   .col-sm-6 {
     margin-top: 40px;
   }
+  .img-fluid.rounded.mx-auto.d-block.pt-5.mt-5 {
+    margin-top: 35px !important;
+    padding-top: 0 !important;
+  }
+
   .project-main-title {
-    font-size: 32px;
+    font-size: 25px;
   }
   .project-title {
-    font-size: 20px;
+    font-size: 17px;
   }
   .footer-wrap {
     overflow: hidden;
@@ -512,6 +578,9 @@ img {
   .footer-top-divider {
     margin-top: 8px;
   }
+  .h1-work {
+    font-size: 20px;
+  }
   .ana-portrait {
     max-height: 144px;
     max-width: 144px;
@@ -559,7 +628,7 @@ img {
   .bio-highlight-square-6 {
     padding-left: 0px;
     border-left-style: none;
-    paddinf
+    padding-bottom: 24px;
   }
   .grid-titles {
     margin-bottom: 8px;
@@ -572,8 +641,8 @@ img {
 
 @media (max-width: 375px) {
   h2 {
-    margin-top: 100px;
-    margin-bottom: 16px;
+    margin-top: -10px;
+    margin-bottom: -25px;
     font-size: 40px;
     line-height: 48px;
     text-align: left;
@@ -592,8 +661,7 @@ img {
     font-size: 25px;
   }
   .footer-dots {
-    right: -235px;
-    bottom: 12px;
+    display: none;
   }
   .footer-top-divider {
     margin-top: 8px;
@@ -612,16 +680,14 @@ img {
   }
 
   .home-h1 {
-    margin-bottom: 16px;
+    margin-top: 70px;
+    margin-bottom: 10px;
     font-size: 40px;
     line-height: 48px;
   }
 
   .ana-portrait {
-    width: 28vw;
-    height: 28vw;
-    border-radius: 100px;
-    box-shadow: 11px 11px 48px 0 rgba(0, 0, 0, 0.18);
+    display: none;
   }
 
   .bio-statement-and-portrait {
@@ -719,168 +785,5 @@ img {
   #w-node-a092fbde-4f9b-0e1e-f56d-d9b762e73e07-2b744261 {
     -ms-grid-column-align: end;
     justify-self: end;
-  }
-}
-@media screen and (max-width: 991px) {
-  h1 {
-    text-align: left;
-  }
-
-  h2 {
-    text-align: left;
-  }
-
-  h3 {
-    text-align: left;
-  }
-
-  h4 {
-    text-align: left;
-  }
-
-  h5 {
-    text-align: left;
-  }
-
-  h6 {
-    text-align: left;
-  }
-
-  li {
-    text-align: left;
-  }
-
-  blockquote {
-    text-align: left;
-  }
-
-  .styleguide-block {
-    text-align: center;
-  }
-
-  .rich-text p {
-    text-align: left;
-  }
-
-  .section-style.cc-contact {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .button {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .arlen-logo-link.w--current {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-  }
-
-  .navigation {
-    position: relative;
-    padding: 40px 40px 0px;
-  }
-
-  .intro-wrap {
-    padding-top: 24px;
-    padding-bottom: 0px;
-  }
-
-  .contact {
-    width: auto;
-    padding: 30px 50px 40px;
-  }
-
-  .contact-headline {
-    width: 100%;
-  }
-
-  .contact-form-wrap {
-    width: 100%;
-  }
-
-  .footer-wrap {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
-  .base-xl {
-    text-align: left;
-  }
-
-  .base-l {
-    text-align: left;
-  }
-
-  .base-m {
-    text-align: left;
-  }
-
-  .base-s {
-    text-align: left;
-  }
-
-  .grid-style---home {
-    width: 90%;
-  }
-
-  .link {
-    text-align: left;
-  }
-
-  .footer-top-divider {
-    margin-top: 64px;
-    padding-bottom: 96px;
-  }
-
-  .hero-shim {
-    opacity: 0;
-  }
-
-  .portfolio-polished-collection-list-mobile {
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-  }
-
-  .divider---richtext {
-    margin-top: 64px;
-    margin-bottom: 64px;
-  }
-
-  .footer-dots {
-    left: 22px;
-    bottom: -50px;
-  }
-
-  .body {
-    overflow: hidden;
-  }
-
-  .section-style---sampler.cc-contact {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .arlen-logo-link-animated.w--current {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-  }
-
-  .bio-wrapper {
-    width: 100%;
-    padding-top: 24px;
-    padding-bottom: 0px;
-  }
-
-  .portrait-container {
-    background-position: 20px 50%;
   }
 }
