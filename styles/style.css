@@ -55,9 +55,11 @@ img {
 .body-home {
   background: linear-gradient(
     117deg,
-    rgb(181, 67, 153) 17%,
-    rgb(73, 190, 183) 43%,
-    rgb(230, 217, 222) 78%
+    rgb(120, 86, 224) 4%,
+    rgb(248, 105, 226) 23%,
+    rgb(55, 185, 195) 53%,
+    rgb(235, 236, 222) 85%,
+    rgb(242, 240, 246) 100%
   );
 }
 .nav-logo-container {
