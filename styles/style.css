@@ -53,12 +53,6 @@ img {
 }
 
 .body-home {
-  border-bottom: 1px none #000;
-  background-image: url(https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e7c21a34149343b88c20898_Gradient-home.png),
-    linear-gradient(180deg, transparent, transparent);
-  background-position: -210px 0px 0px 0px;
-  background-attachment: scroll, scroll;
-  background-size: 180%, auto;
   background: linear-gradient(
     117deg,
     rgb(181, 67, 153) 17%,
