@@ -479,6 +479,7 @@ img {
     font-size: 40px;
     line-height: 48px;
     text-align: left;
+    color: #fff;
   }
   .h1-second {
     font-size: 30px;
@@ -494,6 +495,22 @@ img {
   .home-h1 {
     margin-top: 80px;
     margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .btn.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+  }
+  a.button-project {
+    color: #000 !important;
+    border-color: #000 !important;
+  }
+  .footer-title {
+    color: #000;
+  }
+  .h1-work {
+    color: #fff;
   }
   .col-sm-6 {
     margin-top: 40px;
@@ -643,12 +660,14 @@ img {
 
 @media (max-width: 375px) {
   h2 {
-    margin-top: -10px;
+    margin-top: 70px;
     margin-bottom: -25px;
     font-size: 40px;
     line-height: 48px;
     text-align: left;
+    color: #fff;
   }
+
   .header-link {
     padding: 12px 5px;
     font-size: 18px;
@@ -686,6 +705,17 @@ img {
     margin-bottom: 10px;
     font-size: 40px;
     line-height: 48px;
+    color: #fff;
+  }
+  .btn.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+  }
+  .footer-title {
+    color: #000;
+  }
+  .h1-work {
+    color: #fff;
   }
 
   .ana-portrait {
