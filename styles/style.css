@@ -59,6 +59,12 @@ img {
   background-position: -210px 0px 0px 0px;
   background-attachment: scroll, scroll;
   background-size: 180%, auto;
+  background: linear-gradient(
+    117deg,
+    rgb(181, 67, 153) 17%,
+    rgb(73, 190, 183) 43%,
+    rgb(230, 217, 222) 78%
+  );
 }
 .nav-logo-container {
   position: relative;
@@ -497,7 +503,7 @@ img {
     margin-top: 40px;
   }
   .img-fluid.rounded.mx-auto.d-block.pt-5.mt-5 {
-    margin-top: 35px !important;
+    margin-top: 3px !important;
     padding-top: 0 !important;
   }
 
